@@ -1,4 +1,4 @@
-  <section class="vs-blog__layout1 space" data-bg-src="assets/img/bg/blog-bg1.png">
+  <section class="vs-blog__layout1 space" data-bg-src="{{asset('frontend/assets/img/bg/blog-bg1.png')}}">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
@@ -12,7 +12,7 @@
                     <div class="col-xl-6 wow animate__fadeInUp" data-wow-delay="0.35s">
                         <div class="vs-blog__style1  mb-0">
                             <div class="blog-img">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog-s-2-1.jpg" alt="Blog Image"></a>
+                                <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/blog-s-2-1.jpg')}}" alt="Blog Image"></a>
                                 <a href="blog.html" class="blog-cate">deep cleaning</a>
                             </div>
                             <div class="blog-content">
@@ -33,7 +33,7 @@
                                 <div class="row gx-4 align-items-center">
                                     <div class="col-xl-auto">
                                         <div class="blog-img">
-                                            <a href="blog-details.html"><img src="assets/img/blog/blog-s-2-2.jpg" alt="Blog Image"></a>
+                                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/blog-s-2-2.jpg')}}" alt="Blog Image"></a>
                                             <a href="blog.html" class="blog-cate">Bedroom</a>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@
                                 <div class="row gx-4 align-items-center">
                                     <div class="col-xl-auto">
                                         <div class="blog-img">
-                                            <a href="blog-details.html"><img src="assets/img/blog/blog-s-2-3.jpg" alt="Blog Image"></a>
+                                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/blog-s-2-3.jpg')}}" alt="Blog Image"></a>
                                             <a href="blog.html" class="blog-cate">Mattress</a>
                                         </div>
                                     </div>

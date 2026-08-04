@@ -13,7 +13,7 @@
                         <div class="vs-service__style1">
                             <div class="vs-service__img">
                                 <a href="service-details.html">
-                                    <img src="assets/img/service/service-img-1-1.jpg" alt="Serevice Image">
+                                    <img src="{{asset('frontend/assets/img/service/service-img-1-1.jpg')}}" alt="Serevice Image">
                                 </a>
                             </div>
                             <div class="vs-service__body">
@@ -23,7 +23,7 @@
                                         <h2 class="vs-service__title h6"><a href="service-details.html">home service</a></h2>
                                     </div>
                                     <div class="vs-service__icon">
-                                        <img src="assets/img/icon/service-icon-1-1.svg" alt="Service Icon">
+                                        <img src="{{asset('frontend/assets/img/icon/service-icon-1-1.svg')}}" alt="Service Icon">
                                     </div>
                                 </div>
                                 <p class="vs-service__text">aweep & mopsd vacuum floor House Cleaners.</p>
@@ -34,7 +34,7 @@
                         <div class="vs-service__style1">
                             <div class="vs-service__img">
                                 <a href="service-details.html">
-                                    <img src="assets/img/service/service-img-1-2.jpg" alt="Serevice Image">
+                                    <img src="{{asset('frontend/assets/img/service/service-img-1-2.jpg')}}" alt="Serevice Image">
                                 </a>
                             </div>
                             <div class="vs-service__body">
@@ -44,7 +44,7 @@
                                         <h2 class="vs-service__title h6"><a href="service-details.html">Kitchen Clean</a></h2>
                                     </div>
                                     <div class="vs-service__icon">
-                                        <img src="assets/img/icon/service-icon-1-2.svg" alt="Service Icon">
+                                        <img src="{{asset('frontend/assets/img/icon/service-icon-1-2.svg')}}" alt="Service Icon">
                                     </div>
                                 </div>
                                 <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
@@ -55,7 +55,7 @@
                         <div class="vs-service__style1">
                             <div class="vs-service__img">
                                 <a href="service-details.html">
-                                    <img src="assets/img/service/service-img-1-3.jpg" alt="Serevice Image">
+                                    <img src="{{asset('frontend/assets/img/service/service-img-1-3.jpg')}}" alt="Serevice Image">
                                 </a>
                             </div>
                             <div class="vs-service__body">
@@ -65,7 +65,7 @@
                                         <h2 class="vs-service__title h6"><a href="service-details.html">Purification</a></h2>
                                     </div>
                                     <div class="vs-service__icon">
-                                        <img src="assets/img/icon/service-icon-1-3.svg" alt="Service Icon">
+                                        <img src="{{asset('frontend/assets/img/icon/service-icon-1-3.svg')}}" alt="Service Icon">
                                     </div>
                                 </div>
                                 <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
@@ -76,7 +76,7 @@
                         <div class="vs-service__style1">
                             <div class="vs-service__img">
                                 <a href="service-details.html">
-                                    <img src="assets/img/service/service-img-1-4.jpg" alt="Serevice Image">
+                                    <img src="{{asset('frontend/assets/img/service/service-img-1-4.jpg')}}" alt="Serevice Image">
                                 </a>
                             </div>
                             <div class="vs-service__body">
@@ -86,7 +86,7 @@
                                         <h2 class="vs-service__title h6"><a href="service-details.html">Bed & Mattres</a></h2>
                                     </div>
                                     <div class="vs-service__icon">
-                                        <img src="assets/img/icon/service-icon-1-4.svg" alt="Service Icon">
+                                        <img src="{{asset('frontend/assets/img/icon/service-icon-1-4.svg')}}" alt="Service Icon">
                                     </div>
                                 </div>
                                 <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
@@ -97,7 +97,7 @@
                         <div class="vs-service__style1">
                             <div class="vs-service__img">
                                 <a href="service-details.html">
-                                    <img src="assets/img/service/service-img-1-5.jpg" alt="Serevice Image">
+                                    <img src="{{asset('frontend/assets/img/service/service-img-1-5.jpg')}}" alt="Serevice Image">
                                 </a>
                             </div>
                             <div class="vs-service__body">
@@ -107,7 +107,7 @@
                                         <h2 class="vs-service__title h6"><a href="service-details.html">House Clean</a></h2>
                                     </div>
                                     <div class="vs-service__icon">
-                                        <img src="assets/img/icon/service-icon-1-4.svg" alt="Service Icon">
+                                        <img src="{{asset('frontend/assets/img/icon/service-icon-1-4.svg')}}" alt="Service Icon">
                                     </div>
                                 </div>
                                 <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <span class="shape-mockup z-index-n1 d-xl-block d-none" style="right: 0; top: 0px;"><img src="assets/img/shapes/service-shape-1.png" alt="counter element"></span>
-            <span class="shape-mockup z-index-n1 custom-sheap" style="right: 0; bottom: 0px;"><img src="assets/img/shapes/service-shape-2.png" alt="counter element"></span>
-            <span class="shape-mockup z-index-n1 d-xl-block d-none" style="left: 0; bottom: 0px;" ><img src="assets/img/shapes/service-shape-3.png" alt="counter element"></span>
+            <span class="shape-mockup z-index-n1 d-xl-block d-none" style="right: 0; top: 0px;"><img src="{{asset('frontend/assets/img/shapes/service-shape-1.png')}}" alt="counter element"></span>
+            <span class="shape-mockup z-index-n1 custom-sheap" style="right: 0; bottom: 0px;"><img src="{{asset('frontend/assets/img/shapes/service-shape-2.png')}}" alt="counter element"></span>
+            <span class="shape-mockup z-index-n1 d-xl-block d-none" style="left: 0; bottom: 0px;" ><img src="{{asset('frontend/assets/img/shapes/service-shape-3.png')}}" alt="counter element"></span>
          </section>

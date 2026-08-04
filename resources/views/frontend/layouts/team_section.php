@@ -1,4 +1,5 @@
-  <section class="vs-team__layout1 bg-linear space">
+<!-- tearm are -->
+   <section class="vs-team__layout1 bg-linear space">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
@@ -13,7 +14,7 @@
                         <div class="vs-team__style1">
                             <div class="vs-team__img">
                                 <a href="team.html">
-                                    <img src="assets/img/team/team-img-1-1.png" alt="Team Image">
+                                    <img src="{{ asset('frontend/assets/img/team/team-img-1-1.png') }}" alt="Team Image">
                                 </a>
                                 <div class="vs-team__social--media">
                                     <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
@@ -31,7 +32,7 @@
                         <div class="vs-team__style1">
                             <div class="vs-team__img">
                                 <a href="team.html">
-                                    <img src="assets/img/team/team-img-1-2.png" alt="Team Image">
+                                    <img src="{{ asset('frontend/assets/img/team/team-img-1-2.png') }}" alt="Team Image">
                                 </a>
                                 <div class="vs-team__social--media">
                                     <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
@@ -49,7 +50,7 @@
                         <div class="vs-team__style1">
                             <div class="vs-team__img">
                                 <a href="team.html">
-                                    <img src="assets/img/team/team-img-1-3.png" alt="Team Image">
+                                    <img src="{{ asset('frontend/assets/img/team/team-img-1-3.png') }}" alt="Team Image">
                                 </a>
                                 <div class="vs-team__social--media">
                                     <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
@@ -67,7 +68,7 @@
                         <div class="vs-team__style1">
                             <div class="vs-team__img">
                                 <a href="team.html">
-                                    <img src="assets/img/team/team-img-1-4.png" alt="Team Image">
+                                    <img src="{{ asset('frontend/assets/img/team/team-img-1-4.png') }}" alt="Team Image">
                                 </a>
                                 <div class="vs-team__social--media">
                                     <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
@@ -85,7 +86,7 @@
                         <div class="vs-team__style1">
                             <div class="vs-team__img">
                                 <a href="team.html">
-                                    <img src="assets/img/team/team-img-1-4.png" alt="Team Image">
+                                    <img src="{{ asset('frontend/assets/img/team/team-img-1-4.png') }}" alt="Team Image">
                                 </a>
                                 <div class="vs-team__social--media">
                                     <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
@@ -101,6 +102,7 @@
                     </div>
                 </div>
             </div>
-            <span class="shape-mockup d-xl-block d-none" style="right: 0; top: 0px;"><img src="assets/img/shapes/service-shape-1.png" alt="team element"></span>
-            <span class="shape-mockup d-xl-block d-none z-index-n1" style="left: 0; bottom: 0px;"><img src="assets/img/shapes/team-shep1.png" alt="team element"></span>
+            <span class="shape-mockup d-xl-block d-none" style="right: 0; top: 0px;"><img src="{{ asset('frontend/assets/img/shapes/service-shape-1.png') }}" alt="team element"></span>
+            <span class="shape-mockup d-xl-block d-none z-index-n1" style="left: 0; bottom: 0px;"><img src="{{ asset('frontend/assets/img/shapes/team-shep1.png') }}" alt="team element"></span>
          </section>
+<!-- tearm are end -->

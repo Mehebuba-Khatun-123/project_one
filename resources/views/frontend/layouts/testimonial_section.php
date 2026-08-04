@@ -1,4 +1,4 @@
-  <section class="vs-testi__layout1 space" data-bg-src="assets/img/bg/testi-bg1.jpg">
+  <section class="vs-testi__layout1 space" data-bg-src="{{asset('frontend/assets/img/bg/testi-bg1.jpg')}}">
             <div class="container">
                 <div class="row gx-60 g-5">
                     <div class="col-xl-5">
@@ -57,7 +57,7 @@
                                         <span class="vs-testi__icon"><i class="fas fa-quote-left"></i></span>
                                         <div class="vs-testi__top">
                                             <div class="vs-testi__image">
-                                                <img class="img1" src="assets/img/testimonial/testi-1-1.png" alt="testimonials">
+                                                <img class="img1" src="{{asset('frontend/assets/img/testimonial/testi-1-1.png')}}" alt="testimonials">
                                             </div>
                                             <div class="vs-testi__author">
                                                 <div class="star-rating">
@@ -82,7 +82,7 @@
                                         <span class="vs-testi__icon"><i class="fas fa-quote-left"></i></span>
                                         <div class="vs-testi__top">
                                             <div class="vs-testi__image">
-                                                <img class="img1" src="assets/img/testimonial/testi-1-1.png" alt="testimonials">
+                                                <img class="img1" src="{{asset('frontend/assets/img/testimonial/testi-1-1.png')}}" alt="testimonials">
                                             </div>
                                             <div class="vs-testi__author">
                                                 <div class="star-rating">
@@ -108,12 +108,12 @@
                             <div class="custom-arraw wow animate__fadeInUp" data-wow-delay="0.45s">
                                 <div class="icon-arraw slick-prev" data-slick-prev=".testi-slider">
                                     <button class="icon-btn2">
-                                        <img src="assets/img/icon/arraw-right.svg" alt="icon">
+                                        <img src="{{asset('frontend/assets/img/icon/arraw-right.svg')}}" alt="icon">
                                     </button>
                                 </div>
                                 <div class="icon-arraw slick-next" data-slick-next=".testi-slider">
                                     <button class="icon-btn2">
-                                        <img src="assets/img/icon/arraw-left.svg" alt="icon">
+                                        <img src="{{asset('frontend/assets/img/icon/arraw-left.svg')}}" alt="icon">
                                     </button>
                                 </div>
                             </div>
@@ -122,6 +122,6 @@
                 </div>
             </div>
             <div class="common-line shape-mockup d-none d-xxl-block" style="top: -7px;">
-                <img src="assets/img/shapes/line-shep.png" alt="shapes">
+                <img src="{{asset('frontend/assets/img/shapes/line-shep.png')}}" alt="shapes">
             </div>
          </section>
