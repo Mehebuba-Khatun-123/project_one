@@ -31,7 +31,7 @@
                             <div class="col-auto">
                                 <div class="header-logo">
                                     <a href="/">
-                                        <img src="{{asset('/frontend/assets/img/logo-white.svg')}}" alt="logo">
+                                        <img src="{{asset('frontend/assets/img/logo-white.svg')}}" alt="logo">
                                     </a>
                                 </div>
                             </div>
