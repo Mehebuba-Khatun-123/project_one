@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function  index(){
+    public function __invoke()
+    {
         //      Service::create([
         //     'service_name'      =>'House Clean ',
         //     'service_slug'      =>'office-clean',

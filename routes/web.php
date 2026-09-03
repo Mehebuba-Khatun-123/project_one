@@ -1,13 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use Livewire\Volt\Volt;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Backend\ServiceController;
 
 
 
-Route::get('/',[HomeController::class,'index']
+
+Route::get('/',HomeController::class
     )->name('home');
  
 Route::get('/about', function () {
